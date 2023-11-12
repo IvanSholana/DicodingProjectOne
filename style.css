@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* HEADER */
@@ -26,7 +27,6 @@ nav div a {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button {
@@ -38,13 +38,11 @@ button {
   padding-bottom: 15px;
   border: none;
   border-radius: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
 
 #title {
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
 
@@ -61,7 +59,6 @@ button {
 }
 
 #content {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
 
@@ -97,10 +94,68 @@ button {
 #company {
   background-color: #292526;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 30px;
 }
 
 #company span {
   color: #f86642;
+}
+
+#companylogo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.verticalLine {
+  border: #f86642 solid 1px;
+  height: 50px;
+}
+
+/* MAIN */
+main {
+  padding: 100px;
+  text-align: center;
+}
+
+#article-1 {
+  margin-bottom: 50px;
+}
+
+#article-1 section {
+  display: flex;
+  justify-content: space-around;
+}
+
+#article-1 figure {
+  width: 30%;
+}
+
+#article-1 img {
+  height: 40%;
+}
+
+#article-1 figcaption {
+  font-weight: bold;
+}
+
+.number {
+  margin: auto;
+  background: linear-gradient(to top, #f86642, #fa947a);
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 100%;
+  color: white;
+  font-weight: bold;
+}
+
+#article-2 section {
+  margin-top: 50px;
+  display: flex;
+}
+
+#article-2 img {
+  margin-top: 25px;
+  height: 50%;
 }
