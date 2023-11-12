@@ -1,0 +1,106 @@
+body {
+  margin: 0px;
+}
+
+/* HEADER */
+header {
+  background-color: #e0eaf3;
+  text-align: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav div {
+  margin: 30px 50px 30px 50px;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav div a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  color: white;
+  background-color: #f86642;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+#title {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+#title span {
+  color: #f86642;
+}
+
+#content {
+  justify-content: space-around;
+  margin: auto;
+  width: 50%;
+  z-index: 2;
+  position: relative;
+}
+
+#content {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+#content section {
+  display: flex;
+  justify-content: space-around;
+}
+
+#title {
+  margin-bottom: 25px;
+  font-size: xx-large;
+}
+
+#content article {
+  display: flex;
+}
+
+#content article img {
+  align-self: center;
+  margin-right: 5px;
+}
+
+#imgHeader {
+  margin-top: -20px;
+  z-index: 1;
+}
+
+#content button {
+  background: linear-gradient(to top left, #f86642, #fa947a);
+  margin-top: 5px;
+}
+
+#company {
+  background-color: #292526;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 30px;
+}
+
+#company span {
+  color: #f86642;
+}
