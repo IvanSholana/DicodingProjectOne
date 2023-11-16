@@ -53,7 +53,7 @@ button {
 #content {
   justify-content: space-around;
   margin: auto;
-  width: 50%;
+  width: 60%;
   z-index: 2;
   position: relative;
 }
@@ -80,7 +80,6 @@ button {
   align-self: center;
   margin-right: 5px;
 }
-
 #imgHeader {
   margin-top: -20px;
   z-index: 1;
@@ -158,4 +157,91 @@ main {
 #article-2 img {
   margin-top: 25px;
   height: 50%;
+}
+
+#portofolio {
+  background-color: #292526;
+}
+
+#card1 {
+  background-color: #292526;
+}
+
+@media screen and (max-width: 600px) {
+  #link {
+    display: none;
+  }
+  #companylogo {
+    display: block;
+  }
+
+  .verticalLine {
+    display: none;
+    border: #f86642 solid 1px;
+    height: 50px;
+  }
+
+  #imgHeader {
+    margin-top: -20px;
+    z-index: 1;
+    width: 100vw;
+  }
+
+  #title {
+    margin-bottom: 25px;
+    font-size: 4vw;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-right: 10px;
+  }
+
+  #article-1 section {
+    display: block;
+  }
+
+  main {
+    padding: 50px;
+    text-align: center;
+  }
+
+  #article-1 figure {
+    margin: auto;
+    width: 70%;
+  }
+
+  #article-2 section {
+    margin-top: 50px;
+    display: block;
+  }
+
+  button {
+    color: white;
+    background-color: #f86642;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .plus {
+    font-size: x-small;
+  }
+
+  #content {
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+    z-index: 2;
+    position: relative;
+  }
 }
